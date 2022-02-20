@@ -1,7 +1,9 @@
 {
   "name": "p5js-nextjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Michael Kontogiannis <mkontogiannis@protonmail.com> (https://m.kontogiannis.org/)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +12,7 @@
   },
   "dependencies": {
     "next": "12.1.0",
+    "next-seo": "5.1.0",
     "p5": "1.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
