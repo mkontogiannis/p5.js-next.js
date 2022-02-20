@@ -1,0 +1,23 @@
+{
+  "title": "A p5.js Next.js/React boilerplate",
+  "description": "A p5.js Next.js/React boilerplate w/ Typescript created by Michael Kontogiannis (https://m.kontogiannis.org)",
+  "openGraph": {
+    "title": "A p5.js Next.js/React boilerplate",
+    "description": "A p5.js Next.js/React boilerplate w/ Typescript created by Michael Kontogiannis (https://m.kontogiannis.org)",
+    "type": "website",
+    "locale": "en_IE",
+    "url": "https://p5-js-next-js.vercel.app/",
+    "site_name": "A p5.js Next.js/React boilerplate",
+    "images": [
+      {
+        "url": "/assets/p5js-card.png",
+        "width": 400,
+        "height": 200,
+        "alt": "A p5.js Next.js/React boilerplate"
+      }
+    ]
+  },
+  "twitter": {
+    "cardType": "summary_large_image"
+  }
+}
