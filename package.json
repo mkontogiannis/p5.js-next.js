@@ -4,6 +4,9 @@
   "private": false,
   "author": "Michael Kontogiannis <mkontogiannis@protonmail.com> (https://m.kontogiannis.org/)",
   "license": "MIT",
+  "engines": {
+    "node": "=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
