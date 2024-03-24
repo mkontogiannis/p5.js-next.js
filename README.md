@@ -18,7 +18,3 @@ For `SEO` you will have to update the `seo.json` file coordingly
 ## Resources
 
 For plain es6/typescript setup please have a look here -> [p5.js-es6](https://github.com/mkontogiannis/p5.js-es6)
-
-## Tips
-
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" target="_blank" alt="Buy me a coffee" style="height: 60px !important;width: 217px !important;">](https://www.buymeacoffee.com/mkontogiannis)
