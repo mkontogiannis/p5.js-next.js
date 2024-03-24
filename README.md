@@ -2,7 +2,7 @@
 
 This is a simple boilerplate for writing p5.js sketches in Next.js/React with typescript.
 
-It uses the awesome [react-p5](https://github.com/Gherciu/react-p5) library for rendering the `Sketch` as a `React` component and [next-seo](https://github.com/garmeeh/next-seo) for super easy `SEO` configuration.
+It uses the awesome [@p5-wrapper/react](https://github.com/P5-wrapper/react) & [@p5-wrapper/next](https://github.com/P5-wrapper/next) libraries for rendering the `Sketch` as a `React` component and [next-seo](https://github.com/garmeeh/next-seo) for super easy `SEO` configuration.
 
 DEMO on Vercel (https://p5-js-next-js.vercel.app/)
 

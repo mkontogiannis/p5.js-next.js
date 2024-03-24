@@ -14,20 +14,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@p5-wrapper/next": "1.0.2",
+    "@p5-wrapper/react": "4.3.4",
     "next": "14.1.4",
     "next-seo": "6.5.0",
     "p5": "1.9.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-p5": "1.4.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "20.11.30",
     "@types/p5": "1.7.6",
     "@types/react": "18.2.69",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.4",
-    "eslint-plugin-unused-imports": "2.0.0",
-    "typescript": "5.4.3"
+    "eslint-plugin-unused-imports": "3.1.0"
   }
 }

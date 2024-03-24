@@ -1,16 +1,13 @@
-import dynamic from 'next/dynamic';
-import type P5 from 'p5';
+import { P5CanvasInstance, Sketch } from '@p5-wrapper/react';
+import P5 from 'p5';
 
-const Sketch = dynamic(() => import('react-p5'), {
-  ssr: false,
-});
+export const mySketch: Sketch = (p5: P5CanvasInstance) => {
+  const logoWidth = 250;
+  const logoHeight = 114;
 
-const logoWidth = 250;
-const logoHeight = 114;
-let logo: P5.Image;
+  let logo: P5.Image;
 
-const MySketch = () => {
-  const drawImage = (p5: P5) => {
+  const drawImage = () => {
     p5.image(
       logo,
       p5.windowWidth / 2 - logoWidth / 2,
@@ -18,28 +15,17 @@ const MySketch = () => {
     );
   };
 
-  const preload = (p5: P5) => (logo = p5.loadImage('assets/p5js.svg'));
+  p5.preload = () => (logo = p5.loadImage('assets/p5js.svg'));
 
-  const setup = (p5: P5, canvasParentRef: Element) => {
-    p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef);
-    drawImage(p5);
+  p5.setup = () => {
+    p5.createCanvas(p5.windowWidth, p5.windowHeight);
+    drawImage();
   };
 
-  const draw = () => {};
+  p5.draw = () => {};
 
-  const windowResized = (p5: P5) => {
+  p5.windowResized = () => {
     p5.resizeCanvas(p5.windowWidth, p5.windowHeight);
-    drawImage(p5);
+    drawImage();
   };
-
-  return (
-    <Sketch
-      preload={preload}
-      setup={setup}
-      draw={draw}
-      windowResized={windowResized}
-    />
-  );
 };
-
-export default MySketch;
