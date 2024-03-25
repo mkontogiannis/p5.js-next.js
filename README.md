@@ -13,8 +13,8 @@ Clone the repository without the whole history:<br />
 
 The application has been created using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app) and uses its standard development / deployment process.
 
-For `SEO` you will have to update the `seo.json` file coordingly
+For `SEO` you will have to update the `seo.json` file accordingly
 
 ## Resources
 
-For plain es6/typescript setup please have a look here -> [p5.js-es6](https://github.com/mkontogiannis/p5.js-es6)
+For a react/typescript setup please have a look here -> [p5.js-react-vite](https://github.com/mkontogiannis/p5.js-react-vite)
